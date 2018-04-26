@@ -1,0 +1,13 @@
+h1{
+    margin-top: 80px;
+}
+.resume-section svg:not(:root) {
+    overflow: hidden;
+    max-width: 50px;
+}
+
+.resume-section.active:hover {
+    color: orange;
+    -webkit-transition: width 2s;
+    transition: width 2s;
+}
